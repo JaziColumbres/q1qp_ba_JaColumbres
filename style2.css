@@ -14,73 +14,61 @@
     src: url(fonts/Hug\ Me\ Tight\ -\ OTF.otf);
 }
 
-.nav{
+
+.navb{
+    display: inline-flex;
     background-color: #D6BCBC;
     width: 100%;
-    height: relative;
-    display: flex;
-    flex-wrap: nowrap;
     overflow: hidden;
+    height: fit-content;
+    flex-wrap: nowrap;
 }
 
-.nav p1{
+.logo img{
     position: relative;
-    font-size: 40px;
-    left: 22%;
-    color: #b38787;
-}
-
-.nav p2{
-    position: relative;
-    font-size: 40px;
-    left: 26%;
-    color: #b38787;
-}
-
-#logo img{
-    position: relative; 
     width: 50px;
-    height: 50px;
-    left: 25px;
     border: 2px solid rgb(155, 123, 123);
     border-radius: 100%;
+    left: 20px;
 }
 
-.nav audio{
+.links{
     position: relative;
-    width: 16%;
-    height: 40px;
-    left: 32%;
-    top: 8px;
+    left: 17%;
+    top: 2px;
 }
 
-#links{
+.links p{
     position: relative;
-    left: 24%;
-    top: 6px;
+    display: inline-flex;
+    color: #916d6d;
+    font-size: 30px;
+    top: 5px;
 }
 
-#links a{
+.links a{
+    display: inline-flex;
     background-color: #f1f1f1;
     color: #aa8989;
     border: 2px solid #aa8e8e;
-    padding: 8px;
-    border-radius: 6px;
-    margin: 2px;
-
-    font-family: cute2;
+    border-radius: 5px;
+    text-wrap: wrap;
+    padding: 10px;
     text-decoration: none;
-    
-    display: flex;
-    flex-wrap: nowrap;
-    text-align: center;
-    height: relative;
-
+    font-family: cute2;
     transition: color .2s ease-in-out;
 }
-#links a:hover{
+.links a:hover{
     color: rgb(243, 235, 236);
     box-shadow: inset 200px 0 0 0 #c7a2a2;;
+}
+
+.music audio{
+    position: relative;
+    display: inline-flex;
+    top: 13px;
+    left: 85%;
+    height: 30px;
 }
 
 .title{
