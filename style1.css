@@ -101,8 +101,9 @@
 .banner{
     position: relative;
     background-image: url(images/87e5a6a8d642772c37cb035b58e0668a.png);
-    height: 100px;
-    width: 93%;
+    height: fit-content;
+    padding: 15px;
+    width: 90.8%;
     left: 48px;
     border-radius: 5px;
 }
@@ -110,7 +111,6 @@
     position: relative;
     font-family: cute1;
     font-size: 45px;
-    top: 16px;
     text-align: center;
     color: #573030;
 }
