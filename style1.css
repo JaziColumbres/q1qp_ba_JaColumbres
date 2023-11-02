@@ -1,43 +1,45 @@
+/*for description of navbar and footer, refer to this page*/
+
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px; /*no spacing as default*/
 }
 
 @font-face {
-    font-family: cute1;
+    font-family: cute1; /*title font*/
     src: url(fonts/ReglisseFill-WyWzn.otf);
 }
 
 @font-face {
-    font-family: cute2;
+    font-family: cute2; /*paragraph font*/
     src: url(fonts/Hug\ Me\ Tight\ -\ OTF.otf);
 }
+/*adding fonts^*/
 
-
-.navb{
+.navb{ /*main navbar format*/
     display: inline-flex;
-    background-color: #D6BCBC;
-    width: 100%;
+    background-color: #D6BCBC; /*background color*/
+    width: 100%; /*fit to screen*/
     overflow: hidden;
-    height: fit-content;
+    height: fit-content; /*fit content when squished*/
     flex-wrap: nowrap;
 }
 
 .logo img{
     position: relative;
-    width: 50px;
-    border: 2px solid rgb(155, 123, 123);
-    border-radius: 100%;
-    left: 20px;
+    width: 50px; /*change logo size*/
+    border: 2px solid rgb(155, 123, 123); /*give logo a border*/
+    border-radius: 100%; /*makes border a circle*/
+    left: 20px; /*change position of the logo*/
 }
 
-.links{
+.links{ /*changes the position of the links*/
     position: relative;
     left: 17%;
     top: 2px;
 }
 
-.links p{
+.links p{ /*formats the links decoration*/
     position: relative;
     display: inline-flex;
     color: #916d6d;
@@ -45,31 +47,31 @@
     top: 5px;
 }
 
-.links a{
+.links a{ /*formats the links*/
     display: inline-flex;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; /*adds a background*/
     color: #aa8989;
-    border: 2px solid #aa8e8e;
+    border: 2px solid #aa8e8e; /*border*/
     border-radius: 5px;
     text-wrap: wrap;
     padding: 10px;
-    text-decoration: none;
-    font-family: cute2;
-    transition: color .2s ease-in-out;
+    text-decoration: none; /*no underline*/
+    font-family: cute2; /*changes font*/
+    transition: color .2s ease-in-out; /*link hover transition time + how*/
 }
-.links a:hover{
+.links a:hover{ /*link hover transition specifics*/
     color: rgb(243, 235, 236);
     box-shadow: inset 200px 0 0 0 #c7a2a2;;
 }
 
-.music audio{
+.music audio{ /*music position*/
     position: relative;
     display: inline-flex;
     top: 13px;
     left: 85%;
     height: 30px;
 }
-.title{
+.title{ /*title format*/
     position: relative;
     font-family: cute1;
     color: #613F3F;
@@ -89,40 +91,40 @@
     font-size: 25px;
     left: 5%;
 }
-
-.title h1{
+/*decoration ^*/
+.title h1{ /*actual title*/
     display: inline;
     position: relative;
-    font-size: 50px;
-    left: 4%;
+    font-size: 50px; /*large font*/
+    left: 4%; /*change position*/
     width: fit-content;
 }
 
 .banner{
     position: relative;
-    background-image: url(images/87e5a6a8d642772c37cb035b58e0668a.png);
+    background-image: url(images/87e5a6a8d642772c37cb035b58e0668a.png); /*background of the banner*/
     height: fit-content;
     padding: 15px;
-    width: 90.8%;
-    left: 48px;
+    width: 90.8%; /*not whole screen*/
+    left: 48px; /*change position*/
     border-radius: 5px;
 }
-.banner p{
+.banner p{ /*text in the banner*/
     position: relative;
     font-family: cute1;
     font-size: 45px;
-    text-align: center;
+    text-align: center; /*align the text to the middle*/
     color: #573030;
 }
 
-.main{
-    display: inline-flex;
+.main{ /*main content general format*/
+    display: inline-flex; /*dislay as flex*/
     flex-direction: row;
     position: relative;
-    margin-left: 48px;
+    margin-left: 48px; /*move from left*/
 }
 
-.left{
+.left{ /*left format*/
     flex-direction: column;
     position: relative;
     background-color: #E3CFCF;
@@ -133,7 +135,7 @@
     display: inline-flex;
     flex-direction: column;
 }
-.left img{
+.left img{ /*formats the image*/
     position: relative;
     border-radius: 100%;
     width: 55px;
@@ -141,7 +143,7 @@
     top: 5px;
     border: 2px solid #aa8c8c;
 }
-.left p{
+.left p{ /*adds text above the social media links*/
     font-family: cute2;
     color: #613F3F;
     background-color: #EDE1E1;
@@ -151,10 +153,10 @@
 }
 
 
-.right{
+.right{ /*formats right*/
     flex-wrap: wrap;
 }
-.right p{
+.right p{ /*formats text on the right*/
     background-color: #EDE1E1;
     position: relative;
     color: #613F3F;
@@ -170,15 +172,15 @@
     text-align: justify;
 }
 
-.foot{
+.foot{ /*footer formatting*/
     background-color: #D6BCBC;
     position: relative;
     top: 32px;
-    width: 100%;
-    height: 80px;
+    width: 100%; /*fit screen*/
+    height: 80px; /*change height to fit screen (no bookmarks)*/
 }
 
-.foot p{
+.foot p{ /*move text + design*/
     position: relative;
     font-family: cute2;
     color: #613F3F;

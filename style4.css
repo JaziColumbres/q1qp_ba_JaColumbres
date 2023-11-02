@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px; /*no spacing as default*/
 }
 
 @font-face {
@@ -99,7 +99,7 @@
     width: fit-content;
 }
 
-.text{
+.text{ /*main text area format*/
     display: inline-flex;
     position: relative;
     left: 3.7%;
@@ -108,7 +108,7 @@
     color: #613F3F;
 }
 
-.text p{
+.text p{ /*text design and size*/
     background-color: #EDE1E1;
     padding: 20px;
     border-radius: 8px;

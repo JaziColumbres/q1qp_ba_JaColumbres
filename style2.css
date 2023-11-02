@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px; /*no spacing as default*/
 }
 
 @font-face {
@@ -98,26 +98,25 @@
     width: fit-content;
 }
 
-.main{
+.main{ /*format main/general*/
     display: inline-flex;
-    margin-left: 49.5px;
+    margin-left: 49.5px; /*move from left*/
 }
 
-.image img{
+.image img{ /*change image format*/
     position: relative;
     display: flex;
-    object-fit: contain;
     border-radius: 5px;
 }
 
-.text{
+.text{ /*general text design*/
     position: relative;
     flex-wrap: wrap;
     font-family: cute2;
     color: #613F3F;
 }
 
-.text p{
+.text p{ /*color, font, and spacing*/
     position: relative;
     background-color: #EDE1E1;
     border-radius: 5px;
@@ -127,14 +126,14 @@
     left: 1%;
     height: fit-content;
 }
-.text2 p{
+.text2 p{ /*height of 2nd oaragraph box*/
     position: relative;
     height: fit-content;
     top: 10px;
     padding-bottom: 6.5%;
 }
 
-.bot p{
+.bot p{ /*bottom paragraph design and formatting*/
     display: flex;
     position: relative;
     font-family: cute2;

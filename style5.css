@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px; /*no spacing as default*/
 }
 
 @font-face {
@@ -99,18 +99,18 @@
     width: fit-content;
 }
 
-.main{
+.main{ /*main format*/
     margin-left: 46px;
     display: inline-flex;
 }
 
-.image img{
+.image img{ /*change format of selfie image*/
     position: relative;
     width: 410px;
     border-radius: 5px;
 }
 
-.text{
+.text{ /*text beside image design and format*/
     position: relative;
     background-color: #EDE1E1;
     padding: 20px;
@@ -118,11 +118,11 @@
     color: #613F3F;
     font-family: cute2;
     text-wrap: wrap;
-    word-wrap: break-word;
+    word-wrap: break-word; /*make sure the text stays inside box*/
     width: 100%;
     left: 2%;
 }
-.text li{
+.text li{ /*add an indent to the list*/
     position: relative;
     left: 5%;
     width: 98%;

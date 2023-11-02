@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px; /*no spacing as default*/
 }
 
 @font-face {
@@ -99,22 +99,22 @@
     width: fit-content;
 }
 
-.main{
+.main{ /*general formatting/changes*/
     margin-left: 49.2px;
     display: inline-flex;
     flex-wrap: wrap;
     font-family: cute2;
     color: #613F3F;
 }
-.main img{
+.main img{ /*general image formats*/
     border-radius: 5px;
     border: 2px solid #a08989;
 }
 
-.top{
+.top{ /*display as inline flexbox*/
     display: inline-flex;
 }
-.top p{
+.top p{ /*top text format*/
     position: relative;
     background-color: #EDE1E1;
     border-radius: 5px;
@@ -126,7 +126,7 @@
     word-spacing: 2px;
     text-align: justify;
 }
-.image1{
+.image1{ /*change size of images and sirection of flex*/
     display: inline-flex;
     flex-direction: column;
     position: relative;
@@ -134,13 +134,13 @@
     right: 2%;
 }
 
-.bot{
+.bot{ /*bottom part format*/
     display: inline-flex;
     flex-direction: row;
     position: relative;
     top: 20px;
 }
-.bot p{
+.bot p{ /*last/bottom paragraoh formats*/ 
     position: relative;
     background-color: #EDE1E1;
     border-radius: 5px;
@@ -153,7 +153,7 @@
     word-spacing: 2px;
     text-align: justify;
 }
-.image2{
+.image2{ /*bottom images format to column and size*/
     display: inline-flex;
     flex-direction: column;
     position: relative;
