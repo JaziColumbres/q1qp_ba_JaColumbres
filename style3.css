@@ -100,82 +100,65 @@
 }
 
 .main{
-    position: relative;
-    display: flex;
+    margin-left: 49.2px;
+    display: inline-flex;
+    flex-wrap: wrap;
     font-family: cute2;
     color: #613F3F;
-    flex-wrap: wrap;
-    width: fit-content;
 }
+.main img{
+    border-radius: 5px;
+    border: 2px solid #a08989;
+}
+
 .top{
     display: inline-flex;
-    flex-direction: row;
-    width: fit-content;
 }
-.timg{
-    flex-direction: column;
-}
-.timg img{
-    position: relative;
-    width: 80%;
-    border: 2px solid #b38787;
-    border-radius: 8px;
-    left: 35px;
-}
-
-.t1 p{
+.top p{
     position: relative;
     background-color: #EDE1E1;
-    padding: 15px;
-    border-radius: 8px;
-    height: 200px;
-    width: 93%;
-    left: 50px;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 20px;
+    padding-bottom: 25.6%;
+    width: 90%;
+    line-height: 27px;
+    word-spacing: 2px;
+    text-align: justify;
 }
-
-.mimg img{
-    position: relative;
-    width: 80%;
-    border: 2px solid #b38787;
-    border-radius: 8px;
-    bottom: 105px;
-    left: 50px;
-}
-
-.mt{
+.image1{
+    display: inline-flex;
     flex-direction: column;
+    position: relative;
+    width: 30%;
+    right: 2%;
 }
 
-.mid{
+.bot{
     display: inline-flex;
     flex-direction: row;
-    width: fit-content;
-}
-
-.t2{
     position: relative;
-    width: 50.3%;
-    height: 67px;
-    right: 13px;
-    bottom: 30%;
-    background-color: #EDE1E1;
-    padding: 15px;
-    border-radius: 8px;
+    top: 20px;
 }
-
-.t3{
+.bot p{
     position: relative;
-    width: 92.5%;
-    height: 190px;
-    right: 13px;
-    bottom: 25%;
     background-color: #EDE1E1;
-    padding: 15px;
-    border-radius: 8px;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 20px;
+    padding-bottom: 23.8%;
+    width: 89.7%;
+    left: 28px;
+    line-height: 27px;
+    word-spacing: 2px;
+    text-align: justify;
 }
-
-
-
+.image2{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+}
 
 .foot{
     background-color: #D6BCBC;
